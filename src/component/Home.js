@@ -1,7 +1,10 @@
 import React from 'react';
 
 function Home(){
+<div>
 
+
+</div>
 }
 
 
