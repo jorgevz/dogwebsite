@@ -1,4 +1,5 @@
 import React from 'react';
+import './mylogo.jpeg'
 
 function Home(){
 return(
