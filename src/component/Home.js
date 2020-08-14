@@ -1,11 +1,13 @@
 import React from 'react';
 
 function Home(){
+return(
 <div>
-<img/>
+<img src="./mylogo.jpeg" alt='dogfo-logo'/>
 <h1>Welcome to our site ! where Dog Education matters</h1>
 
 </div>
+)
 }
 
 
