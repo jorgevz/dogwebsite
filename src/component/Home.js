@@ -2,8 +2,8 @@ import React from 'react';
 
 function Home(){
 <div>
-<image
-<h1></h1>
+<img/>
+<h1>Welcome to our site ! where Dog Education matters</h1>
 
 </div>
 }
