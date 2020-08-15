@@ -1,5 +1,6 @@
 .main-article{
-
+display: flex;
+flex-direction: row;
 }
 
 #first-article{
