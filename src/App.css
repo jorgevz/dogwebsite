@@ -1,6 +1,7 @@
 .first-article{
 font-family: Arial, Helvetica, sans-serif;
-background-color: teal;
+background-color: rgb(1, 155, 155);
+border-radius: 15%;
 width: 300px;
 font-weight: 400;
 color: white;
