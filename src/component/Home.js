@@ -7,7 +7,7 @@ return(
 
 <section className="nav-logo-welcome">
 
-<img src={logo} alt='dogfo-logo' width='100px' height='100px'/>
+<img src={logo} alt='dogfo-logo' width='200px' height='200px'/>
 <h1>Welcome to our site, where Dog Education matters</h1>
 
 </section>
