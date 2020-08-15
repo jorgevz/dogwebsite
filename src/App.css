@@ -17,9 +17,25 @@ line-height: 36px;
 font-size: 16px;
 }
 
+@keyframes first-article {
+0% {
+background-color: white;    
+}
+50%{
+background-color: #a3f0f0;
+}
+
+100%{
+background-color: rgb(1, 155, 155);
+}
+}
+
 #second-article{
 width: 400px;
 line-height: 36px;
 font-size: 16px;
 text-align: center;
+border-radius: 6%;
+background-color: wheat;
+color: black;
 }
