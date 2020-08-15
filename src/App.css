@@ -42,3 +42,16 @@ border-radius: 6%;
 background-color: wheat;
 color: black;
 }
+
+@keyframes first-class {
+ 0% {
+background-color: white;    
+ }
+50%{
+background-color: #a3f0f0;
+}
+    
+100%{
+ background-color: rgb(1, 155, 155);
+}
+    }
