@@ -15,10 +15,10 @@ font-weight: 400;
 color: white;
 line-height: 36px;
 font-size: 16px;
-animation: first-class 1s ease-in-out 1s normal ;
+animation: first-article 2s ease-in-out 0s normal ;
 }
 
-@keyframes first-class {
+@keyframes first-article {
 0% {
 background-color: white;    
 }
