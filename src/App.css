@@ -48,10 +48,10 @@ color: black;
 background-color: white;    
  }
 50%{
-background-color: #a3f0f0;
+background-color: #f6e8ce;
 }
     
 100%{
- background-color: rgb(1, 155, 155);
-}
+ background-color: wheat;
+ }
     }
