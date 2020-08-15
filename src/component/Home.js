@@ -7,7 +7,7 @@ return(
 
 <section className="nav-logo-welcome">
 
-<img src={logo} alt='dogfo-logo' width='150px' height='150px'/>
+<img src={logo} alt='dogfo-logo' width='150px' height='100px'/>
 </section>
 
 <article className='first-article'>
