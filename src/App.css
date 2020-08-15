@@ -1,5 +1,8 @@
 .first-article{
-width: 400px;
-background-color: rgba(55, 55, 228, 0.979);
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
 color: white;
+position: relative;
+line-height: 36px;
+font-size: 16px;
 }
