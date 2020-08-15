@@ -15,6 +15,7 @@ font-weight: 400;
 color: white;
 line-height: 36px;
 font-size: 16px;
+animation: first-class 2s ease-in-out 1s infinite normal ;
 }
 
 @keyframes first-article {
