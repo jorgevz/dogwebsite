@@ -1,7 +1,8 @@
 .main-article{
-display: flex;
+display: flex ;
 flex-direction: row;
-justify-content: space-between;
+justify-content: space-evenly;
+width: 100%;
 }
 
 #first-article{
@@ -12,7 +13,13 @@ border-radius: 6%;
 width: 310px;
 font-weight: 400;
 color: white;
-position: fixed;
 line-height: 36px;
 font-size: 16px;
+}
+
+#second-article{
+width: 400px;
+line-height: 36px;
+font-size: 16px;
+text-align: center;
 }
