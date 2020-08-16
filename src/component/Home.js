@@ -19,7 +19,7 @@ information about all dog breeds for new and experienced dog owners. </p>
 </div>
 
 <div id='second-article'>
-<h1>You find yourself bored ? come to us</h1>
+<h1>We also entertain</h1>
 <p>Other than the fact that we educate we want to say that we also entertain since the content we provide
 is very entertaining to those who find dog education entertaining. </p>
 </div>
