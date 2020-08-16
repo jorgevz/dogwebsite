@@ -3,7 +3,7 @@ import logo from './dogfo.png'
 
 function Home(){
 return(
-<div id='main-content'>
+<div id='main-background'>
 
 <section className="nav-logo-welcome">
 <img src={logo} alt='dogfo-logo' width='150px' height='100px'/>
