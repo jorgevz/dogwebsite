@@ -87,6 +87,8 @@ border-radius: 7%;
 }
 
 #link-mission{
-padding-left: 150px;
 text-decoration: unset;
+background-color: rgb(1, 155, 155);
+color: white;
+border-radius: 7%;
 }
