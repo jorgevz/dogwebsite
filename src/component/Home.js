@@ -10,6 +10,10 @@ return(
 <img src={logo} alt='dogfo-logo' width='150px' height='100px'/>
 </section>
 
+<section className='nav-bar'>
+
+</section>
+
 <section className='main-article'>
 
 <div id='first-article'>

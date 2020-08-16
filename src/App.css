@@ -3,9 +3,11 @@ background-color: rgb(230, 228, 228);
 height: 1000px;
 }
 
-.nav-logo-welcome{
+.nav-bar{
 display: flex;
 flex-direction: row;
+background-color: rgb(73, 100, 221);
+width: 700px;
 }
 
 .main-article{
