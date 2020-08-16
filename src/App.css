@@ -83,6 +83,7 @@ left: 35%;
 text-decoration: unset;
 background-color: rgb(1, 155, 155);
 color: white;
+line-height: 50px;
 }
 
 #link-mission{
@@ -90,4 +91,5 @@ text-decoration: unset;
 background-color: rgb(1, 155, 155);
 color: white;
 padding-left: 100px;
+line-height: 50px;
 }
