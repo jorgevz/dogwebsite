@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './dogfo.png'
+import logo from './Background.svg'
 
 function Home(){
 return(
