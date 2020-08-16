@@ -26,9 +26,9 @@ information about all dog breeds for new and experienced dog owners. </p>
 </section>
 
 <div id='second-article'>
-<h1>We also entertain</h1>
-<p>Other than the fact that we educate we want to say that we also entertain since the content we provide
-is very entertaining to those who find dog education appealing. </p>
+<h1>We also Train !</h1>
+<p>Other than the fact that we educate we want to say that we provide the most impeccable dog 
+training with the most dedicated trainers and staff you could ever find. </p>
 </div>
 
 </section>
