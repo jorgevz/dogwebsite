@@ -83,12 +83,11 @@ left: 35%;
 text-decoration: unset;
 background-color: rgb(1, 155, 155);
 color: white;
-border-radius: 7%;
 }
 
 #link-mission{
 text-decoration: unset;
 background-color: rgb(1, 155, 155);
 color: white;
-border-radius: 7%;
+padding-left: 100px;
 }
