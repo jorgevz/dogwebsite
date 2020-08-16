@@ -68,3 +68,17 @@ background-color: #f6e8ce;
  background-color: wheat;
  }
     }
+
+
+.whole-app{
+background-color: cornsilk;
+display: inline;
+}
+
+#link-home{
+padding-left: 50px;
+}
+
+#link-mission{
+padding-left: 150px;
+}

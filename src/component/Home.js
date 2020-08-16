@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './Background.svg'
 import dogimage from './dogfopic.png'
 
+
 function Home(){
 return(
 <div id='main-background'>
@@ -10,9 +11,6 @@ return(
 <img src={logo} alt='dogfo-logo' width='150px' height='100px'/>
 </section>
 
-<section className='nav-bar'>
-
-</section>
 
 <section className='main-article'>
 
