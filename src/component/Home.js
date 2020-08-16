@@ -30,7 +30,7 @@ information about all dog breeds for new and experienced dog owners. </p>
 <div id='second-article'>
 <h1>We also entertain</h1>
 <p>Other than the fact that we educate we want to say that we also entertain since the content we provide
-is very entertaining to those who find dog education entertaining. </p>
+is very entertaining to those who find dog education appealing. </p>
 </div>
 
 </section>
