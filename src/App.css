@@ -3,12 +3,6 @@ background-color: rgb(230, 228, 228);
 height: 1000px;
 }
 
-.nav-bar{
-display: flex;
-flex-direction: row;
-background-color: rgb(73, 100, 221);
-width: 700px;
-}
 
 .main-article{
 display: flex ;
@@ -30,6 +24,7 @@ font-size: 16px;
 animation: first-article 2s ease-in-out 0s normal ;
 }
 
+
 @keyframes first-article {
 0% {
 background-color: white;    
@@ -42,6 +37,11 @@ background-color: #a3f0f0;
 background-color: rgb(1, 155, 155);
 }
 }
+
+#dog-img{
+padding-top: 100px;
+}
+
 
 #second-article{
 width: 310px;
@@ -70,10 +70,13 @@ background-color: #f6e8ce;
     }
 
 
-.whole-app{
+.nav-bar{
 background-color: rgb(230, 228, 228);
 display: inline;
-line-height: 40px;
+padding-top: 100px;
+position: absolute;
+top: -7%;
+left: 17%;
 }
 
 #link-home{
