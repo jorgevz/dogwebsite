@@ -1,5 +1,4 @@
 #main-background{
-background-color: rgb(230, 228, 228);
 height: 1000px;
 }
 
@@ -8,6 +7,7 @@ height: 1000px;
 display: flex ;
 flex-direction: row;
 justify-content: space-evenly;
+position: relative;
 width: 100%;
 }
 
@@ -19,6 +19,7 @@ border-radius: 6%;
 width: 310px;
 font-weight: 400;
 color: white;
+position: relative;
 line-height: 36px;
 font-size: 16px;
 animation: first-article 2s ease-in-out 0s normal ;
@@ -51,6 +52,7 @@ font-family: Arial, Helvetica, sans-serif;
 font-size: 16px;
 text-align: center;
 border-radius: 6%;
+position: relative;
 background-color: wheat;
 color: black;
 animation: second-article 2s ease-in-out 0s normal ;
@@ -71,17 +73,17 @@ background-color: #f6e8ce;
 
 
 .nav-bar{
-background-color: rgb(230, 228, 228);
 display: inline;
 padding-top: 100px;
-position: absolute;
-top: -7%;
-left: 17%;
+position: relative;
+left: 35%;
 }
 
 #link-home{
-padding-left: 50px;
 text-decoration: unset;
+background-color: rgb(1, 155, 155);
+color: white;
+border-radius: 7%;
 }
 
 #link-mission{

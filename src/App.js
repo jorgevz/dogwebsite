@@ -8,7 +8,7 @@ import {
   Redirect
   } from 'react-router-dom'
   import Home from './component/Home';
-import Mission from './component/Mission';
+  import Mission from './component/Mission';
   
   
 
