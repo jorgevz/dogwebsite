@@ -20,7 +20,7 @@ information about all dog breeds for new and experienced dog owners. </p>
 </div>
 
 <section>
-<img src={dogimage} height='150px' width='100px'/>
+<img src={dogimage} height='250px' width='150px'/>
 </section>
 
 <div id='second-article'>
