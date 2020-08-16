@@ -13,7 +13,7 @@ import {
 function App() {
     return(
       <Router>
-      <div className='whole'>
+      <div className='whole-app'>
       <nav>
       <ul>
       <li>
