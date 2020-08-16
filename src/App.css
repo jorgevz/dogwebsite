@@ -71,14 +71,17 @@ background-color: #f6e8ce;
 
 
 .whole-app{
-background-color: cornsilk;
+background-color: rgb(230, 228, 228);
 display: inline;
+line-height: 40px;
 }
 
 #link-home{
 padding-left: 50px;
+text-decoration: unset;
 }
 
 #link-mission{
 padding-left: 150px;
+text-decoration: unset;
 }
