@@ -1,34 +1,34 @@
 import React from 'react';
 import Axios from 'axios'
 
-class Breeds extends React.Component{
+class Akita extends React.Component{
   
-constructor(props) {
-super(props);
-this.state = {
-isLoaded: false,
-data: []
+  constructor(props) {
+    super(props)
+  
+    this.state = {
+    data: null,
+  
+    };
 }
-        }
- componentDidMount() {
-  Axios.get("https://api.thedogapi.com/v1/breeds").then(res => {
-   const Akita=res.data.name;
-    this.setState({data:Breeds})
-    console.log(Akita)
-    })
- .catch(error => {
-console.log('there is an error', error)
- })
-  }
+
+
+componentDidMount(){
+fetch("https://api.thedogapi.com/v1/breeds")
+.then(response => response.json())
+.then(data => console.log({ data }));
+}
+
 render() {
 return (
  <div>
- <h4>All my breeds {this.state.data}.</h4>
+ <h4>All my breeds</h4>
+ <p>{this.state.data}</p>
  </div>
    )
 }
-  }
+}
     
 
 
-export default Breeds;
+export default Akita;
