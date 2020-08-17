@@ -15,7 +15,7 @@ return(
 <section className='main-article'>
 
 <div id='first-article'>
-<h1>Welcome to our site, where Dog Education matters</h1>
+<h1>Welcome to dogfo, where Dog Education matters</h1>
 <p>We pride ourselves in the type of knowledge we provide to the dog lovers community,
 that is why we make sure we have the right content to share with you all. We provide 
 information about all dog breeds for new and experienced dog owners. </p>
