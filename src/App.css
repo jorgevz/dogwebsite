@@ -99,23 +99,44 @@ position: relative;
 }
 
 .mission-statement{
-font-family: Arial, Helvetica, sans-serif;
-width: 400px;
-background-color: #003be5;
-color: white;
+width: 100%;
+background-color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+#mission-inside{
 line-height: 36px;
 font-weight: 400;
-position: relative;
+font-style: 16px;
 text-align: center;
+position: relative;
 font-size: 16px;
+width: 500px;
+background-color: #7d4297;
 border-radius: 6%;
-margin-left: 400px;
-line-height: 36px;
-font-size: 16px;
+color: white;
+animation: first-article 2s ease-in-out 0s normal ;
 }
+
+@keyframes mission-inside {
+    0% {
+   background-color: white;    
+    }
+   50%{
+   background-color: #c47af5;
+   }
+       
+   100%{
+    background-color: #7d4297;
+    }
+       }
+   
+   
 
 #pic-1{
 border-radius: 7%;
-width:150px;
-height:150px
+width:200px;
+height:200px
 }
