@@ -140,3 +140,20 @@ border-radius: 7%;
 width:200px;
 height:200px
 }
+
+#whole-my-form{
+display: flex ;
+flex-direction: column;
+justify-content: space-evenly;
+position: relative;
+width: 100%;
+
+}
+
+#my-form{
+width: 300px;
+
+background-color: lightsalmon;
+border-radius: 7%;
+
+}

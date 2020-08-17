@@ -4,11 +4,12 @@ class Form extends React.Component{
 render(){
 return(
 
-<div id='myform'>
+<div id='whole-my-form'>
 
+
+
+<form id='my-form'>
 <h2>Tell us about your dog</h2>
-
-<form>
 <input placeholder="Owner's Full name" type='text' />
 <br/> 
 <input placeholder="Dog's Name" type='text'/>
