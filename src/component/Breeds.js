@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Allpages(){
+function Breeds(){
 return(
 <div>
 <Akita/>
@@ -9,4 +9,4 @@ return(
 }
 
 
-export default Allpages;
+export default Breeds;

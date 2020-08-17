@@ -14,6 +14,7 @@ data: []
   Axios.get("https://api.thedogapi.com/v1/breeds").then(res => {
    const Akita=res.data.name;
     this.setState({data:Breeds})
+    console.log(Akita)
     })
  .catch(error => {
 console.log('there is an error', error)
