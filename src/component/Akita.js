@@ -1,29 +1,32 @@
 import React from 'react';
-import Axios from 'axios'
 
 class Akita extends React.Component{
   
   constructor(props) {
     super(props)
   
-    this.state = {
-    data: null,
-  
-    };
+    
 }
+  state = {
+  person: null,
+  
+  };
 
+async componentDidMount(){
+const url = ("https://api.thedogapi.com/v1/breeds");
+const res = await fetch(url);
+const data = await res.json();
+// console.log(data);
+this.setState ({person: data.res});
 
-componentDidMount(){
-fetch("https://api.thedogapi.com/v1/breeds")
-.then(response => response.json())
-.then(data => console.log({ data }));
 }
 
 render() {
 return (
  <div>
  <h4>All my breeds</h4>
- <p>{this.state.data}</p>
+ <p>{this.state.res.name}</p>
+ 
  </div>
    )
 }
