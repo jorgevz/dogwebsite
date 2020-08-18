@@ -9,8 +9,8 @@ import {
   } from 'react-router-dom'
   import Home from './component/Home';
   import Mission from './component/Mission';
-  import Breeds from './component/Dogs';
 import Form from './component/Form';
+import Dogs from './component/Dogs';
   
   
 
@@ -31,7 +31,7 @@ function App() {
       
       <Route exact path='/' component={Home}/>
       <Route path='/Mission' component={Mission}/>
-      <Route path='/Breeds' component={Breeds}/>
+      <Route path='/Breeds' component={Dogs}/>
       <Route path='/Form' component={Form}/>
      
       <Redirect path='/'/>

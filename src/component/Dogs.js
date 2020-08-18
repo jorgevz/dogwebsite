@@ -1,5 +1,4 @@
 import React from 'react';
-import Breeds from './Breeds';
 
 class Dogs extends React.Component{
   
@@ -24,11 +23,12 @@ this.setState ({ breed: data });
 
 render() {
 return (
- <div>
+ <div id='my-breed'>
 
+ <h3>Here are all the world's breeds alphatecally ordered just for you, enjoy !</h3>
  {this.state.breed.map(breed => (
-  <div>
-
+  <div id='the-breeds'>
+  
   <div id='breed-name'>
   Name:
   {breed.name}
@@ -45,11 +45,14 @@ return (
   </div>
   <div id='bred-for'>Bred for:
   {breed.bred_for}
+  <br/>
+  <br/>
+  <br/>
   </div>
-  
+
   </div>
     ))}
-    
+
     </div>
    )
 }
