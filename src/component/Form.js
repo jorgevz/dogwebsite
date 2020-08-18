@@ -5,14 +5,21 @@ class Form extends React.Component{
 constructor(){
 super();
 this.state = {
-username:'',
-password:''
+Fullname:'',
+Dogsname:'',
+Dogsage: '',
+Dogsbreed: '',
+Dogsweight: '',
+Image: ''
+} 
 }
- }
+
 handleSubmit = (e) => { 
 e.preventDefault()   
-alert(`submission complete ${this.state.username} && ${this.state.password}`)
+alert(`complete submission for your Fullname ${this.state.Fullname} &Dogsname& ${this.state.Dogsname} &Dogage& ${this.state.Dogsage}
+&Dogsbreed& ${this.state.Dogsbreed} &Dogsweight& ${this.state.Dogsweight} &Image& ${this.state.Image}`)
 }
+
 handleChange = (e) =>{
 let {name,value} = e.target 
 this.setState({ 
@@ -20,6 +27,7 @@ this.setState({
 })
 console.log(this.state)
  }
+
 render(){
 return(
 <div>
@@ -28,23 +36,30 @@ return(
 
 
 
-<form id='my-form'>
+<form id='my-form' onSubmit={this.handleSubmit}>
 <h2>Tell us about your dog</h2>
-<input placeholder="Owner's Full name" type='text' />
+Full Name:
+<input name='Fullname' placeholder="Owner's Full name" type='text' onChange={this.handleChange}/>
 <br/> 
-<input placeholder="Dog's Name" type='text'/>
+Dog's Name:
+<input name='Dogsname' placeholder="Dog's Name" type='text' onChange={this.handleChange}/>
 <br/>
-<input placeholder="Dog's age" type='number'/>
+Dogs Age:
+<input name='Dogsage' placeholder="Dog's age" type='number' onChange={this.handleChange}/>
 <br/>
-<input placeholder="Dog's Breed" type='text'/>
+Dog's Breed:
+<input name='Dogsbreed' placeholder="Dog's Breed" type='text' onChange={this.handleChange}/>
 <br/>
-<input placeholder="Dog's weight (lb)" type='number'/>
+Dog's weight:
+<input name='Dogsweight' placeholder="(Lb)" type='number' onChange={this.handleChange}/>
 <br/>
 <p>Shows us how beautiful your dog is by uploading his picture.</p>
 <br/>
-<input type='file' placeholder='choose your file'/>
+Image:
+<input name='Image' type='file' placeholder='choose your file' onChange={this.handleChange}/>
 <br/>
-
+<br/>
+<button>Submit</button>
 </form>
 
 </div>
