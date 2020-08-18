@@ -28,7 +28,7 @@ return (
  <h3>Here are all the world's breeds alphatecally ordered just for you, enjoy !</h3>
  {this.state.breed.map(breed => (
   
-  <div id='dogo'>
+  <div id='the-breeds'>
   <div id='breed-name'>
   Name:
   {breed.name}
