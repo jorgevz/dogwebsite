@@ -1,9 +1,10 @@
 import React from 'react';
-import logo from './Background.svg'
+import logo from './Background.svg';
+import Fire from 'firebase'
 
 class Form extends React.Component{
-constructor(){
-super();
+constructor(props){
+super(props);
 this.state = {
 Fullname:'',
 Dogsname:'',
@@ -14,19 +15,18 @@ Image: ''
 } 
 }
 
-handleSubmit = (e) => { 
-e.preventDefault()   
-alert(`complete submission for your Fullname: ${this.state.Fullname}, Dog's name: ${this.state.Dogsname}, Dog's age: ${this.state.Dogsage},
- Dog's breed: ${this.state.Dogsbreed}, Dog's weight: ${this.state.Dogsweight} & Dog's image: ${this.state.Image}`)
-}
-
-handleChange = (e) =>{
-let {name,value} = e.target 
-this.setState({ 
-[name]:value 
-})
-console.log(this.state)
- }
+componentWillMount = ()=>{
+    let messageRef = Fire.database().ref('messages').orderByKey().limitToLast(100);
+    messageRef.on('child_added', snapshot => {
+      let message = { text: snapshot.val(), id: snapshot.key};
+      this.setState({ messages : [message].concat(this.state.message)});
+    })
+  }
+  addMessage = (e)=>{
+    e.preventDefault();
+    Fire.database().ref('message').push(this.inputEl.value);
+    this.inputEl.value = '';
+  }
 
 render(){
 return(
@@ -36,10 +36,10 @@ return(
 
 
 
-<form id='my-form' onSubmit={this.handleSubmit}>
+<form id='my-form' onSubmit={this.addMessage}>
 <h2>Tell us about your dog</h2>
 Full Name:
-<input name='Fullname' placeholder="Owner's Full name" type='text' onChange={this.handleChange}/>
+<input name='Fullname' placeholder="Owner's Full name" type='text' ref={ el => this.inputEl = el}/>
 <br/> 
 Dog's Name:
 <input name='Dogsname' placeholder="Dog's Name" type='text' onChange={this.handleChange}/>
