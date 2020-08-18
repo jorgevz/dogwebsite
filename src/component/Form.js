@@ -16,8 +16,8 @@ Image: ''
 
 handleSubmit = (e) => { 
 e.preventDefault()   
-alert(`complete submission for your Fullname ${this.state.Fullname} &Dogsname& ${this.state.Dogsname} &Dogage& ${this.state.Dogsage}
-&Dogsbreed& ${this.state.Dogsbreed} &Dogsweight& ${this.state.Dogsweight} &Image& ${this.state.Image}`)
+alert(`complete submission for your Fullname: ${this.state.Fullname}, Dog's name: ${this.state.Dogsname}, Dog's age: ${this.state.Dogsage},
+ Dog's breed: ${this.state.Dogsbreed}, Dog's weight: ${this.state.Dogsweight} & Dog's image: ${this.state.Image}`)
 }
 
 handleChange = (e) =>{
