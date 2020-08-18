@@ -22,8 +22,8 @@ function App() {
 
       <Link id='link-home' to='/'>Home</Link>
       <Link id='link-mission'  to='/Mission'>Mission</Link>
-      <Link id='Link-Allpages' to='/Breeds'>Breeds</Link>
-      <Link id='Form' to='/Form'>Form</Link>
+      <Link id='link-breeds' to='/Breeds'>Breeds</Link>
+      <Link id='form' to='/Form'>Form</Link>
 
       </nav>
       

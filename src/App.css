@@ -11,6 +11,12 @@ position: relative;
 width: 100%;
 }
 
+.my-logo{
+position: relative;
+margin-top: 0px;
+left: 0%;
+}
+
 #first-article{
 font-family: Arial, Helvetica, sans-serif;
 background-color: rgb(1, 155, 155);
@@ -74,16 +80,33 @@ background-color: #f6e8ce;
 
 .nav-bar{
 display: inline;
+justify-content: space-evenly;
 padding-top: 100px;
 position: relative;
-left: 40%;
+left: 30%;
 }
 
 #link-home{
 text-decoration: unset;
 background-color: rgb(1, 155, 155);
 color: white;
-line-height: 50px;
+line-height: 75px;
+}
+
+#link-breeds{
+    text-decoration: unset;
+    background-color: rgb(1, 155, 155);
+    color: white;
+    padding-left: 100px;
+    line-height: 75px;
+}
+
+#form{
+    text-decoration: unset;
+    background-color: rgb(1, 155, 155);
+    color: white;
+    padding-left: 100px;
+    line-height: 75px;
 }
 
 #link-mission{
@@ -91,7 +114,7 @@ text-decoration: unset;
 background-color: rgb(1, 155, 155);
 color: white;
 padding-left: 100px;
-line-height: 50px;
+line-height: 75px;
 }
 
 #our-mission{
@@ -142,20 +165,21 @@ height:200px
 }
 
 #whole-my-form{
-display: flex ;
-flex-direction: column;
 justify-content: space-evenly;
-position: relative;
 width: 100%;
-
+justify-items: center;
+display: flex;
+flex-direction: row;
 }
 
 #my-form{
-width: 300px;
-
+width: 700px;
 background-color: lightsalmon;
 border-radius: 7%;
-
+height: 700px;
+display: flex;
+flex-flow: column;
+text-align: center;
 }
 
 #my-breed{

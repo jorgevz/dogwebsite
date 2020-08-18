@@ -6,7 +6,7 @@ return(
 <div>
 
 <section className="nav-logo-welcome">
-<img src={logo} alt='dogfo-logo' width='150px' height='100px'/>
+<img className='my-logo' src={logo} alt='dogfo-logo' width='150px' height='100px'/>
 </section>
 
 <div className='mission-statement'>

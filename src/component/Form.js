@@ -1,9 +1,11 @@
 import React from 'react';
+import logo from './Background.svg'
 
 class Form extends React.Component{
 render(){
 return(
-
+<div>
+<img className='my-logo' src={logo}/>
 <div id='whole-my-form'>
 
 
@@ -22,7 +24,7 @@ return(
 </form>
 
 </div>
-
+</div>
 
 )
 }

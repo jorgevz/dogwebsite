@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from './Background.svg'
 
 class Dogs extends React.Component{
   
@@ -23,12 +24,18 @@ this.setState ({ breed: data });
 
 render() {
 return (
+  <div>
+  <img className='my-logo' src={logo}/>
+
  <div id='my-breed'>
 
+ 
+ 
  <h3>Here are all the world's breeds alphatecally ordered just for you, enjoy !</h3>
  {this.state.breed.map(breed => (
   
   <div id='the-breeds'>
+
   <div id='breed-name'>
   Name:
   {breed.name}
@@ -52,6 +59,7 @@ return (
   
     ))}
 
+    </div>
     </div>
    )
 }
