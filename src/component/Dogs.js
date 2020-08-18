@@ -17,7 +17,6 @@ async componentDidMount(){
 const url = ("https://api.thedogapi.com/v1/breeds");
 const res = await fetch(url);
 const data = await res.json();
-console.log(data);
 this.setState ({ breed: data });
 
 }

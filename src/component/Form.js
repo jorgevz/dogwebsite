@@ -2,6 +2,24 @@ import React from 'react';
 import logo from './Background.svg'
 
 class Form extends React.Component{
+constructor(){
+super();
+this.state = {
+username:'',
+password:''
+}
+ }
+handleSubmit = (e) => { 
+e.preventDefault()   
+alert(`submission complete ${this.state.username} && ${this.state.password}`)
+}
+handleChange = (e) =>{
+let {name,value} = e.target 
+this.setState({ 
+[name]:value 
+})
+console.log(this.state)
+ }
 render(){
 return(
 <div>
@@ -25,6 +43,8 @@ return(
 <p>Shows us how beautiful your dog is by uploading his picture.</p>
 <br/>
 <input type='file' placeholder='choose your file'/>
+<br/>
+
 </form>
 
 </div>
