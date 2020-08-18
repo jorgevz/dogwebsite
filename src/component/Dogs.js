@@ -27,14 +27,13 @@ return (
 
  <h3>Here are all the world's breeds alphatecally ordered just for you, enjoy !</h3>
  {this.state.breed.map(breed => (
-  <div id='the-breeds'>
   
+  <div id='dogo'>
   <div id='breed-name'>
   Name:
   {breed.name}
   </div>
-  <div id='breed-behavior'>
-  Behavior:
+  <div id='breed-behavior'>Behavior:
   {breed.temperament}
   </div>
   <div id='breed-origin'>Origin:
@@ -49,8 +48,8 @@ return (
   <br/>
   <br/>
   </div>
-
-  </div>
+</div>
+  
     ))}
 
     </div>

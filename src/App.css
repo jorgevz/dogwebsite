@@ -164,18 +164,14 @@ background-color: lightslategrey;
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
-}
-
-#the-breeds{
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-width: 400px;
-border-radius: 6%;
+text-align: center;
 border: solid black;
-margin-left: 500px;
 text-align: center;
 line-height: 36px;
 font-size: 16px;
 font-weight: 400;
+}
+#dogo{
+border: solid black;
+border-radius: 15%;
 }
