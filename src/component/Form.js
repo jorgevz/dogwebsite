@@ -46,7 +46,7 @@ Dog's Breed:
 <input name='Dogsbreed' placeholder="Dog's Breed" type='text' />
 <br/>
 Dog's weight:
-<input name='Dogsweight' placeholder="(Lb)" type='number' />
+<input name='Dogsweight' placeholder="(lb)" type='number' />
 <br/>
 <p>Shows us how beautiful your dog is by uploading his picture.</p>
 <br/>
