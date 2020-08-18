@@ -20,7 +20,7 @@ return(
 <br/>
 <input placeholder="Dog's Breed" type='text'/>
 <br/>
-<input placeholder="Dog's weight" type='number'/>
+<input placeholder="Dog's weight (lb)" type='number'/>
 <br/>
 <p>Shows us how beautiful your dog is by uploading his picture.</p>
 <br/>
