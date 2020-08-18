@@ -9,7 +9,7 @@ import {
   } from 'react-router-dom'
   import Home from './component/Home';
   import Mission from './component/Mission';
-  import Breeds from './component/Akita';
+  import Breeds from './component/Dogs';
 import Form from './component/Form';
   
   
