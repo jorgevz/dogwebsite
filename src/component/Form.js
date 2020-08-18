@@ -1,17 +1,12 @@
 import React from 'react';
 import logo from './Background.svg';
-import Fire from 'firebase'
+import Fire from './Fire'
 
 class Form extends React.Component{
 constructor(props){
 super(props);
 this.state = {
-Fullname:'',
-Dogsname:'',
-Dogsage: '',
-Dogsbreed: '',
-Dogsweight: '',
-Image: ''
+messages: []
 } 
 }
 
@@ -42,22 +37,27 @@ Full Name:
 <input name='Fullname' placeholder="Owner's Full name" type='text' ref={ el => this.inputEl = el}/>
 <br/> 
 Dog's Name:
-<input name='Dogsname' placeholder="Dog's Name" type='text' onChange={this.handleChange}/>
+<input name='Dogsname' placeholder="Dog's Name" type='text' />
 <br/>
 Dogs Age:
-<input name='Dogsage' placeholder="Dog's age" type='number' onChange={this.handleChange}/>
+<input name='Dogsage' placeholder="Dog's age" type='number' />
 <br/>
 Dog's Breed:
-<input name='Dogsbreed' placeholder="Dog's Breed" type='text' onChange={this.handleChange}/>
+<input name='Dogsbreed' placeholder="Dog's Breed" type='text' />
 <br/>
 Dog's weight:
-<input name='Dogsweight' placeholder="(Lb)" type='number' onChange={this.handleChange}/>
+<input name='Dogsweight' placeholder="(Lb)" type='number' />
 <br/>
 <p>Shows us how beautiful your dog is by uploading his picture.</p>
 <br/>
 Image:
-<input name='Image' type='file' placeholder='choose your file' onChange={this.handleChange}/>
+<input name='Image' type='file' placeholder='choose your file' />
 <br/>
+<ul>
+          {
+            this.state.messages.map( message => <li key={message.id}>{message.text}</li>)
+          }
+        </ul>
 <br/>
 <button>Submit</button>
 </form>
