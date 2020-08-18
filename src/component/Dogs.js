@@ -28,6 +28,7 @@ return (
 
  {this.state.breed.map(breed => (
   <div>
+
   <div id='breed-name'>
   Name:
   {breed.name}
@@ -45,6 +46,7 @@ return (
   <div id='bred-for'>Bred for:
   {breed.bred_for}
   </div>
+  
   </div>
     ))}
     
