@@ -1,9 +1,6 @@
-Purpose of the project-
-
-
-
-
-
+**Many times dog owners find themselves having issues in terms a multi service dog focused company that can 
+suit all of their needs for their pet, this project solves that problem. With the idea of dogfo dogowners
+will find a variety of services from dog education, dog training, daycare and more. Now with Dogfo dog owners have what they need, a multi-service dog focused company.**
 
 
 
