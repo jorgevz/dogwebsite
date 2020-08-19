@@ -14,6 +14,7 @@ import Dogs from './component/Dogs';
 import Services from './component/Services'
 import Location from './component/Locations'
 import Locations from './component/Locations';
+import Contact from './component/Contact';
   
   
 
@@ -29,6 +30,7 @@ function App() {
       <Link id='form-link' to='/Form'>Form</Link>
       <Link id='btn-services' to='/Services'>Services</Link>
       <Link id='link-locations' to='/Locations'>Locations</Link>
+      <Link id='link-contact' to='/Contact'>Contact</Link>
 
       </nav>
       
@@ -40,6 +42,7 @@ function App() {
       <Route path='/Form' component={Form}/>
       <Route path='/Services' component={Services}/>
       <Route path='/Locations' component={Locations}/>
+      <Route path='/Contact' component={Contact}/>
      
       <Redirect path='/'/>
       </Switch>
