@@ -79,11 +79,12 @@ background-color: #f6e8ce;
 
 
 .nav-bar{
-display: inline;
-justify-content: space-evenly;
-padding-top: 100px;
-position: relative;
-left: 30%;
+display: flex;
+padding-top: 10px;
+justify-content:space-evenly;
+line-height: 40px;
+background-color:rgb(1, 155, 155);
+width: 100%;
 }
 
 #link-home{
@@ -91,30 +92,49 @@ text-decoration: unset;
 background-color: rgb(1, 155, 155);
 color: white;
 line-height: 75px;
+font: bolder;
+font-family: Arial, Helvetica, sans-serif;
+font-size: large;
 }
 
 #link-breeds{
-    text-decoration: unset;
-    background-color: rgb(1, 155, 155);
-    color: white;
-    padding-left: 100px;
-    line-height: 75px;
+text-decoration: unset;
+background-color: rgb(1, 155, 155);
+color: white;
+
+line-height: 75px;
+font: bolder;
+font-size: large;
+font-family: Arial, Helvetica, sans-serif;
 }
 
-#form{
-    text-decoration: unset;
-    background-color: rgb(1, 155, 155);
-    color: white;
-    padding-left: 100px;
-    line-height: 75px;
+#form-link{
+text-decoration: unset;
+background-color: rgb(1, 155, 155);
+color: white;
+
+line-height: 75px;
+font-size: large;
 }
 
 #link-mission{
 text-decoration: unset;
 background-color: rgb(1, 155, 155);
 color: white;
-padding-left: 100px;
 line-height: 75px;
+font: bolder;
+font-family: Arial, Helvetica, sans-serif;
+font-size: large;
+}
+
+#btn-services{
+text-decoration: unset;
+background-color: rgb(1, 155, 155);
+color: white;
+line-height: 75px;
+font: bolder;
+font-family: Arial, Helvetica, sans-serif;
+font-size: large;
 }
 
 #our-mission{
@@ -201,19 +221,39 @@ border: solid black;
 border-radius: 15%;
 }
 
-#services{
-width: 100%;
-background-color: white;
+.services{
 display: flex;
-flex-direction: row;
 justify-content: space-evenly;
+}
+
+#camp-service{
+background-color: lightgreen;
+border-radius: 7%;
 text-align: center;
-}
-#services-inside{
 line-height: 36px;
-font-weight: 400;
-font-style: 16px;
-position: relative;
 font-size: 16px;
-width: 500px;
+font-weight: bold;
+border: solid black;
 }
+#daycare-service{
+background-color: rgb(243, 170, 243);
+border-radius: 7%;
+text-align: center;
+line-height: 36px;
+font-size: 16px;
+font-weight: bold;
+border: solid black;
+}
+#training-service{
+background-color: rgb(151, 137, 238);
+border-radius: 7%;
+text-align: center;
+line-height: 36px;
+font-size: 16px;
+font-weight: bold;
+border: solid black;
+}
+.dog-images{
+border-radius: 7%;
+}
+
