@@ -127,7 +127,17 @@ font-family: Arial, Helvetica, sans-serif;
 font-size: large;
 }
 
-#btn-services{
+#link-contact{
+text-decoration: unset;
+background-color: rgb(1, 155, 155);
+color: white;
+line-height: 75px;
+font: bolder;
+font-family: Arial, Helvetica, sans-serif;
+font-size: large;
+}
+
+#services-link{
 text-decoration: unset;
 background-color: rgb(1, 155, 155);
 color: white;
@@ -203,14 +213,6 @@ display: flex;
 flex-direction: row;
 background-color: lightsalmon;
 border-radius: 7%;
-text-align: center;
-}
-
-#contact{
-display: flex;
-justify-content: space-evenly;
-flex-direction: row;
-background-color: lightgoldenrodyellow;
 text-align: center;
 }
 
@@ -318,4 +320,11 @@ display: flex;
 justify-content: space-evenly;
 text-align: center;
 }
-
+#contact{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+background-color: lightgoldenrodyellow;
+text-align: center;
+border-radius: 7%;
+    }

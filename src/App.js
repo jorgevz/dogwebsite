@@ -11,8 +11,7 @@ import {
   import Mission from './component/Mission';
 import Form from './component/Form';
 import Dogs from './component/Dogs';
-import Services from './component/Services'
-import Location from './component/Locations'
+import Services from './component/Services';
 import Locations from './component/Locations';
 import Contact from './component/Contact';
   
@@ -28,7 +27,7 @@ function App() {
       <Link id='link-mission'  to='/Mission'>Mission</Link>
       <Link id='link-breeds' to='/Breeds'>Breeds</Link>
       <Link id='form-link' to='/Form'>Form</Link>
-      <Link id='btn-services' to='/Services'>Services</Link>
+      <Link id='services-link' to='/Services'>Services</Link>
       <Link id='link-locations' to='/Locations'>Locations</Link>
       <Link id='link-contact' to='/Contact'>Contact</Link>
 
