@@ -31,27 +31,34 @@ return(
 
 
 
-<form id='my-form' onSubmit={this.addMessage}>
+<form  onSubmit={this.addMessage}>
 <h2>Tell us about your dog</h2>
 Full Name:
 <input name='Fullname' placeholder="Owner's Full name" type='text' ref={ el => this.inputEl = el}/>
 <br/> 
+<br/>
 Dog's Name:
 <input name='Dogsname' placeholder="Dog's Name" type='text' />
+<br/> 
 <br/>
 Dogs Age:
 <input name='Dogsage' placeholder="Dog's age" type='number' />
+<br/> 
 <br/>
 Dog's Breed:
 <input name='Dogsbreed' placeholder="Dog's Breed" type='text' />
+<br/> 
 <br/>
 Dog's weight:
 <input name='Dogsweight' placeholder="(lb)" type='number' />
+<br/> 
 <br/>
 <p>Shows us how beautiful your dog is by uploading his picture.</p>
+<br/> 
 <br/>
 Image:
 <input name='Image' type='file' placeholder='choose your file' />
+<br/> 
 <br/>
 <ul>
           {
