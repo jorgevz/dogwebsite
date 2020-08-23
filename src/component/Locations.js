@@ -14,28 +14,28 @@ return(
 
 
 
-<div id='city-one'>
+<div>
 <h2>Chicago,IL</h2>
 <p></p>
-<img className='dog-images' src={chicago} height='500px' width='300px'/>
+<img className='dog-images' src={chicago} height='500px' width='75%'/>
 </div>
 
-<div id='city-two'>
+<div>
 <h2>Charlotte,NC</h2>
 <p></p>
-<img className='dog-images' src={charlotte} height='500px' width='300px%'/>
+<img className='dog-images' src={charlotte} height='500px' width='75%'/>
 </div>
 
-<div id='city-three'>
+<div>
 <h2>Nashville,TN</h2>
 <p></p>
-<img className='dog-images' src={nashville} height='500px' width='300px'/>
+<img className='dog-images' src={nashville} height='500px' width='75%'/>
 </div>
 
-<div id='city-three'>
+<div>
 <h2>New York City</h2>
 <p></p>
-<img className='dog-images' src={nyc} height='500px' width='300px'/>
+<img className='dog-images' src={nyc} height='500px' width='75%'/>
 </div>
 
 </div>

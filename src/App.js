@@ -14,6 +14,7 @@ import Dogs from './component/Dogs';
 import Services from './component/Services';
 import Locations from './component/Locations';
 import Contact from './component/Contact';
+import Submit from './component/Submit';
   
   
 
@@ -42,8 +43,9 @@ function App() {
       <Route path='/Services' component={Services}/>
       <Route path='/Locations' component={Locations}/>
       <Route path='/Contact' component={Contact}/>
+      <Route path='/Submit' component={Submit}/>
      
-      <Redirect path='/'/>
+      
       </Switch>
       
       </div>

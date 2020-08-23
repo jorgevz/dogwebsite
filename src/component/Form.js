@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './Background.svg';
 import Fire from './Fire'
+import { Redirect, Route } from 'react-router-dom';
+import Submit from './Submit';
 
 class Form extends React.Component{
 constructor(props){
@@ -17,21 +19,30 @@ componentWillMount = ()=>{
       this.setState({ messages : [message].concat(this.state.message)});
     })
   }
+
+  onSubmitHandler = (e) => {
+    e.preventDefault();
+   this.props.history.push('/Submit')
+  }
+
   addMessage = (e)=>{
     e.preventDefault();
     Fire.database().ref('message').push(this.inputEl.value);
     this.inputEl.value = '';
+    
+
   }
 
+  
 render(){
 return(
 <div>
 <img className='my-logo' src={logo}/>
+
 <div id='whole-my-form'>
 
+<form  onSubmit={this.addMessage + this.handleSubmit} >
 
-
-<form  onSubmit={this.addMessage}>
 <h2>Tell us about your dog</h2>
 Full Name:
 <input name='Fullname' placeholder="Owner's Full name" type='text' ref={ el => this.inputEl = el}/>
@@ -46,7 +57,7 @@ Dogs Age:
 <br/> 
 <br/>
 Dog's Breed:
-<input name='Dogsbreed' placeholder="Dog's Breed" type='text' />
+<input name='Dogsbreed' placeholder="Dog's Breed" type='text'  />
 <br/> 
 <br/>
 Dog's weight:
@@ -66,13 +77,15 @@ Image:
           }
         </ul>
 <br/>
-<button>Submit</button>
+<button onClick={this.onSubmitHandler} >Submit</button>
 </form>
 
 </div>
 </div>
 
+
 )
+
 }
 }
 
