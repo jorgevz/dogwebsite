@@ -17,25 +17,25 @@ return(
 <div>
 <h2>Chicago,IL</h2>
 <p></p>
-<img className='dog-images' src={chicago} height='500px' width='75%'/>
+<img className='dog-images' src={chicago} height='auto' width='75%' alt='Chicago image'/>
 </div>
 
 <div>
 <h2>Charlotte,NC</h2>
 <p></p>
-<img className='dog-images' src={charlotte} height='500px' width='75%'/>
+<img className='dog-images' src={charlotte} height='auto' width='75%'/>
 </div>
 
 <div>
 <h2>Nashville,TN</h2>
 <p></p>
-<img className='dog-images' src={nashville} height='500px' width='75%'/>
+<img className='dog-images' src={nashville} height='auto' width='75%'/>
 </div>
 
 <div>
 <h2>New York City</h2>
 <p></p>
-<img className='dog-images' src={nyc} height='500px' width='75%'/>
+<img className='dog-images' src={nyc} height='auto' width='75%'/>
 </div>
 
 </div>
