@@ -35,7 +35,7 @@ return(
 <div>
 <h2>New York City</h2>
 <p></p>
-<img className='dog-images' src={nyc} height='auto' width='75%'/>
+<img className='dog-images' src={nyc} height='auto' width='auto'/>
 </div>
 
 </div>
